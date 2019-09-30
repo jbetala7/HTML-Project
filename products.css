@@ -1,0 +1,367 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+.navlist>li {
+	display: inline-block;
+	position: relative;
+	left: 28em;
+	bottom: 0.64em;
+	padding: 0.5em 0.2em 0.55em 0.2em;
+	border-collapse: separate;
+	border-spacing: 0 0;
+}
+ul a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 1.3em;
+	text-align: center;
+	padding: 0.5em 0.2em 0.55em 0.2em;
+	font-family: Corbel, Arial, sans-serif;
+}
+ ul a:hover {
+	color: #fff;
+	background-color: #a02f24;
+	transition: 0.3s;
+}
+ul a:active {
+	background-color: #333333;
+}
+#nav>ul {
+	margin: 0;
+	background-color: #434444;
+	height: 2.85em;
+}
+.logo {
+	position: relative;
+	top: 2px;
+	width: 150px;
+	height: 39px;
+}
+.sign {
+	padding-bottom: 0.1em;
+}
+.sign:hover {
+	background-color: rgba(0, 0, 0, 0);
+}
+hr {
+	margin-top: 3.1em;
+	width: 50%;
+	height: 1px;
+}
+.prods a {
+	text-align: center;
+	border-radius: 0.9em;
+	background-color: #484a4c;
+	margin-left: 0.8em;
+	margin-right: 0.8em;
+	padding: 0.3em 0.4em;
+	color: #fff;
+	font-family: Corbel, Arial;
+	box-shadow: 0.2em 0.2em 0.2em #777777;
+}
+.prods a:hover {
+	color: #fff;
+	background: -webkit-linear-gradient(#a02f24 , #434444);
+}
+.prods a:active {
+	background: -webkit-linear-gradient(#434444 , #a02f24);
+}
+.prods {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 3.6em;
+}
+h2 {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 1.8em;
+	font-family: Corbel, Arial;
+	font-size: 1.9em;
+}
+.iphone_5, .iphone_5c, .iphone_5s, .iphone_6, .iphone_6plus, .iphone_6s, .iphone_6splus, .iphone_se, .iphone_7, .iphone_7plus, .iphone8, .iphone_8plus, .iphone_10 {
+	margin-left: 1.6em;
+	margin-right: 1.6em;
+}
+.iphone_5:hover, .iphone_5c:hover, .iphone_5s:hover, .iphone_6:hover, .iphone_6plus:hover, .iphone_6s:hover, .iphone_6splus:hover, .iphone_se:hover, .iphone_7:hover, .iphone_7plus:hover, .iphone_8:hover, .iphone_8plus:hover, .iphone_10:hover {
+	transform: scale(1.2);
+	transition: 0.4s;
+}
+.iphone_5 {
+	width: 7%;
+	height: 7%;
+}
+.iphone_5c {
+	width: 7.2%;
+	height: 7.2%;
+}
+.iphone_5s {
+	width: 7%;
+	height: 7%;
+}
+.iphone_6 {
+	width: 8%;
+	height: 8%;
+}
+.iphone_6plus {
+	height: 8.5%;
+	width: 8.5%
+}
+.iphone_6s {
+	height: 8.2%;
+	width: 8.2%;
+}
+.iphone_6splus {
+	width: 8.6%;
+	height: 8.6%;
+}
+.iphone_se {
+	width: 7%;
+	height: 7%;
+}
+.iphone_7 {
+	width: 8.1%;
+	height: 8.1%;
+	margin-top: 0.8em;
+}
+.iphone_7plus {
+	width: 8.9%;
+	height: 8.9%;
+	margin-top: 0.8em;
+}
+.iphone_8 {
+	width: 8.1%;
+	height: 8.1%;
+	margin-top: 0.8em;
+}
+.iphone_8plus {
+	width: 8.7%;
+	height: 8.7%;
+	margin-top: 0.8em;
+}
+.iphone_10 {
+	width: 11.5%;
+	height: 11.5%;
+	margin-top: 0.8em;
+}
+.ipad_mini, .ipad, .ipad_mini2, .ipad_air, .ipad_mini3, .ipad_air2, .ipad_mini4, .ipad_pro_129_1gen, .ipad_pro_1gen, .ipad_2017, .ipad_pro_105, .ipad_pro_17, .ipad_9_7 {
+	margin-left: 1.2em;
+	margin-right: 1.2em;
+}
+.ipad_mini:hover, .ipad:hover, .ipad_mini2:hover, .ipad_air:hover, .ipad_mini3:hover, .ipad_air2:hover, .ipad_mini4:hover, .ipad_pro_129_1gen:hover, .ipad_pro_1gen:hover, .ipad_2017:hover, .ipad_pro_105:hover, .ipad_pro_17:hover, .ipad_9_7:hover {
+	transform: scale(1.2);
+	transition: 0.4s;
+}
+.ipad_mini {
+	height: 10%;
+	width: 10%;
+}
+.ipad {
+	height: 12.7%;
+	width: 12.7%;
+}
+.ipad_mini2 {
+	height: 12.2%;
+	width: 12.2%;
+}
+.ipad_air {
+	height: 12%;
+	width: 12%;
+}
+.ipad_mini3 {
+	height: 9.5%;
+	width: 9.5%;
+}
+.ipad_air2 {
+	height: 12%;
+	width: 12%;
+}
+.ipad_mini4 {
+	height: 9.7%;
+	width: 9.7%;
+}
+.ipad_pro_129_1gen {
+	height: 15.8%;
+	width: 15.8%;
+	margin-top: 1.4em;
+}
+.ipad_pro_1gen {
+	height: 15%;
+	width: 15%;
+	margin-top: 1.4em;
+}
+.ipad_2017 {
+	height: 15%;
+	width: 15%;
+	margin-top: 1.4em;
+}
+.ipad_pro_105 {
+	height: 15.7%;
+	width: 15.7%;
+	margin-top: 1.4em;
+}
+.ipad_pro_17 {
+	height: 16%;
+	width: 16%;
+	margin-top: 1.4em;
+}
+.ipad_9_7 {
+	height: 10%;
+	width: 10%;
+	margin-top: 1.4em;
+}
+.macbook_2017 {
+	height: 13%;
+	width: 13%;
+}
+.macbook_air {
+	height: 18%;
+	width: 18%;
+}
+.macbook_2016 {
+	width: 14%;
+	height: 14%;
+}
+.macbook_pro_rd {
+	width: 18%;
+	height: 18%;
+}
+.macbook_pro_tb {
+	width: 14%;
+	height: 14%;
+}
+.macbook_2016, .macbook_2017, .macbook_air, .macbook_pro_rd, .macbook_pro_tb {
+	margin-left: 1.3em;
+	margin-right: 1.3em;
+}
+.macbook_2016:hover, .macbook_2017:hover, .macbook_air:hover, .macbook_pro_rd:hover, .macbook_pro_tb:hover {
+	transform: scale(1.2);
+	transition: 0.4s;
+}
+.imac_5k {
+	width: 17%;
+	height: 17%;
+}
+.imac_pro {
+	width: 17%;
+	height: 17%;
+}
+.imac_5k, .imac_pro {
+	margin-left: 1.3em;
+	margin-right: 1.3em;
+}
+.imac_5k:hover, .imac_pro:hover {
+	transform: scale(1.2);
+	transition: 0.4s;
+}
+.watch_1 {
+	width: 9%;
+	height: 9%;
+}
+.watch_2 {
+	width: 9%;
+	height: 9%;
+}
+.watch_3 {
+	width: 9.3%;
+	height: 9.3%;
+}
+.watch_1, .watch_2, .watch_3 {
+	margin-left: 1.3em;
+	margin-right: 1.3em;
+}
+.watch_1:hover, .watch_2:hover, .watch_3:hover {
+	transform: scale(1.2);
+	transition: 0.4s;
+}
+.mini_1 {
+	width: 6%;
+	height: 6%;
+}
+.mini_2 {
+	width: 6%;
+	height: 6%;
+}
+.classic_5 {
+	width: 6.4%;
+	height: 6.4%;
+}
+.classic_4 {
+	width: 6.3%;
+	height: 6.3%;
+}
+.classic_6 {
+	width: 6.3%;
+	height: 6.3%;
+}
+.nano_5 {
+	width: 9.3%;
+	height: 9.3%;
+}
+.nano_6 {
+	width: 6.6%;
+	height: 6.6%;
+}
+.nano_7 {
+	width: 6.5%;
+	height: 6.5%;
+}
+.shuffle {
+	width: 6.6%;
+	height: 6.6%;
+}
+.touch_4 {
+	width: 12.4%;
+	height: 12.4%;
+}
+.touch_5 {
+	width: 10%;
+	height: 10%;
+}
+.touch_6 {
+	width: 7.6%;
+	height: 7.6%;
+}
+.mini_1, .mini_2, .classic_4, .classic_5, .classic_6, .nano_5, .nano_6, .nano_7, .shuffle, .touch_4, .touch_5, .touch_6 {
+	margin-left: 1.3em;
+	margin-right: 1.3em;
+}
+.mini_1:hover, .mini_2:hover, .classic_4:hover, .classic_5:hover, .classic_6:hover, .nano_5:hover, .nano_6:hover, .nano_7:hover, .shuffle:hover, .touch_4:hover, .touch_5:hover, .touch_6:hover {
+	transform: scale(1.2);
+	transition: 0.4s;
+}
+.nano_7, .touch_5, .touch_6 {
+	margin-top: 1.5em;
+}
+.top {
+	width: 2.5%;
+	height: 2.5%;
+	float:right;
+	margin-right: 1.2em;
+	
+}
+.footer {
+	background-color: #434444;
+	height: 2.6em;
+	margin-top: 3em;
+}
+.foot{
+	color: #fff;
+    text-align:right;
+    margin-right: 2em;
+    position: relative;
+    top: 1.1em;
+    font-size: 0.7em;
+    font-family: Corbel, Arial, sans-serif;
+}
+.copy{
+	color: #fff;
+    text-align:left;
+    margin-right: 2em;
+    position: relative;
+    bottom: 1.1em;
+    font-size: 0.7em;
+    font-family: Corbel, Arial, sans-serif;
+}

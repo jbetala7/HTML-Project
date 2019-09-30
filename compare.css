@@ -1,0 +1,109 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+.navlist>li {
+	display: inline-block;
+	position: relative;
+	left: 32em;
+	bottom: 0.64em;
+	padding: 0.5em 0.2em 0.55em 0.2em;
+	border-collapse: separate;
+	border-spacing: 0 0;
+}
+ul a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 1.3em;
+	text-align: center;
+	padding: 0.5em 0.2em 0.55em 0.2em;
+	font-family: Corbel, Arial, sans-serif;
+}
+ul a:hover {
+	color: #fff;
+	background-color: #a02f24;
+	transition: 0.3s;
+}
+ul a:active {
+	background-color: #333333;
+}
+.nav>ul {
+	margin: 0;
+	background-color: #434444;
+	height: 2.85em;
+}
+.logo {
+	position: relative;
+	top: 2px;
+	width: 150px;
+	height: 39px;
+}
+.sign {
+	padding-bottom: 0.1em;
+}
+.sign:hover {
+	background-color: rgba(0, 0, 0, 0);
+}
+h1 {
+	text-align: center;
+	font-family: Corbel, Arial, sans-serif;
+	font-size: 3.5em;
+	font-weight: lighter;
+}
+.prods a {
+	text-align: center;
+	border-radius: 0.9em;
+	background-color: #484a4c;
+	margin-left: 0.8em;
+	margin-right: 0.8em;
+	padding: 0.3em 0.4em;
+	color: #fff;
+	font-family: Corbel, Arial;
+	box-shadow: 0.2em 0.2em 0.2em #777777;
+}
+.prods a:hover {
+	color: #fff;
+	background: -webkit-linear-gradient(#a02f24 , #434444);
+}
+.prods a:active {
+	background: -webkit-linear-gradient(#434444 , #a02f24);
+}
+.prods {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 13.9em;
+}
+.footer {
+	background-color: #434444;
+	height: 2.6em;
+	margin-top: 3em;
+}
+.foot{
+	color: #fff;
+    text-align:right;
+    margin-right: 2em;
+    position: relative;
+    top: 1.1em;
+    font-size: 0.7em;
+    font-family: Corbel, Arial, sans-serif;
+}
+.copy{
+	color: #fff;
+    text-align:left;
+    margin-right: 2em;
+    position: relative;
+    bottom: 1.1em;
+    font-size: 0.7em;
+    font-family: Corbel, Arial, sans-serif;
+}
+hr {
+	width: 50%;
+}
+.right {
+	font-size: 1.2em;
+	position: relative;
+	bottom: 1.2em;
+	font-family: Corber, Arial, sans-serif;
+	text-align: center;
+}

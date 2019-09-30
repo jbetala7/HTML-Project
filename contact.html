@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Us</title>
+	<link rel="stylesheet" type="text/css" href="contact.css">
+</head>
+<body>
+<div class="nav">
+<ul class="navlist">
+	<a href="particle.html" class="sign"><img src="images/logo.png" class="logo"></a>
+	<li><a href="particle.html">Home</a></li>
+	<li><a href="products.html">Products</a></li>
+	<li><a href="compare.html">Compare</a></li>
+	<li><a href="about.html">About</a></li>
+	<li><a href="contact.html">Contact Us</a></li>
+</ul>
+</div>
+<h1 align="center">Enter Your Details</h1><hr><br>
+<form action="#" method="post">
+	<label for="name" class="title">Name:</label>
+		<input type="text" name="name" size="20" maxlength="30" required="required" class="box"><br><br>
+	<label for="email" class="title">Email:</label>
+		<input type="email" name="email" required="required" class="box">
+	<p class="para">Please select the smartphone make you're currently using: </p>
+		<input type="checkbox" name="phones" value="apple" checked="checked">Apple<br>
+		<input type="checkbox" name="phones" value="samsung">Samsung<br>
+		<input type="checkbox" name="phones" value="mi">Xiaomi<br>
+		<input type="checkbox" name="phones" value="oneplus">OnePlus<br>
+		<input type="checkbox" name="phones" value="other">Other<br> <br>
+	<label class="gender">
+		Gender:
+	</label>
+		<input id="male" type="radio" name="gender" value="m" checked="checked" required="required">
+		<label for="male">Male</label>
+		<input id="female" type="radio" name="gender" value="f">
+		<label for="female">Female</label>
+		<input id="other" type="radio" name="gender" value="o">
+		<label for="other">Other</label>
+	<br>
+	<br>
+	<label for="username" class="dob">Date Of Birth:</label>
+	<input type="date" name="dob" class="box">
+	<br> <br>
+	<textarea name="comments" cols="40" rows="4" placeholder="Enter your additional comments here..." class="box"></textarea>
+	<br><br><input type="submit" value="Submit" class="submit">
+</form>
+<div class="footer">
+<p class="foot">HTML Project </p>
+<p class="copy"> &copy;TJRL</p>	
+</div>
+</body>
+</html>
